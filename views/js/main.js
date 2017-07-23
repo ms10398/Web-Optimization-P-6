@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     var pizzaCount = getPizzaNumber();
-    for (var i = 0,var elem; i < pizzaCount; i++) {
+    for (var i = 0,elem; i < pizzaCount; i++) {
         elem = document.createElement('img');
         elem.className = 'mover';
         elem.src = "images/pizza.png";
