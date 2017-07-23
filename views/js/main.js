@@ -501,7 +501,7 @@ function updatePositions() {
     for (var i = 0; i < items.length; i++) {
         phase.push(Math.sin((document.body.scrollTop / 1250) + (i % 5)));
     }
-    for (var i = 0; i < items.length; i++) {
+    for (i = 0; i < items.length; i++) {
         items[i].style.left = items[i].basicLeft + 100 * phase[i] + 'px';
     }
 
@@ -526,7 +526,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var getPizzaNumber = function () {
         var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         return Math.round(h / 4 / 8);
-    }
+    };
 
     var pizzaCount = getPizzaNumber();
     for (var i = 0; i < pizzaCount; i++) {
