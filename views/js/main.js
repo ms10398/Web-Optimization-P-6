@@ -445,7 +445,8 @@ var resizePizzas = function (size) {
                 console.log("bug in sizeSwitcher");
         }
         var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
-        for (var i = 0; i < randomPizzas.length; i++) {
+        var length=randomPizzas.length;
+        for (var i = 0; i < length; i++) {
             randomPizzas[i].style.width = newwidth + "%";
         }
     }
@@ -529,8 +530,8 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     var pizzaCount = getPizzaNumber();
-    for (var i = 0; i < pizzaCount; i++) {
-        var elem = document.createElement('img');
+    for (var i = 0,var elem; i < pizzaCount; i++) {
+        elem = document.createElement('img');
         elem.className = 'mover';
         elem.src = "images/pizza.png";
         elem.style.height = "100px";
