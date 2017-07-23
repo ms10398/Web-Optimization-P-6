@@ -1,6 +1,6 @@
 ## Website Performance Optimization portfolio project
 
-View the Project in Working at: [Website Optimization](http://sagarchoudhary96.github.io/Web_Optimization/).
+View the Project in Working at: [Website Optimization](https://ms10398.github.io/Web-Optimization-P-6/).
 
 The Key Goal of this Project was to Optimize a Given Website As Much As Possible for Faster Rendering & to Achieve High PageSpeed Score.
 
