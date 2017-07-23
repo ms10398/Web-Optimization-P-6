@@ -5,8 +5,8 @@ View the Project in Working at: [Website Optimization](https://ms10398.github.io
 The Key Goal of this Project was to Optimize a Given Website As Much As Possible for Faster Rendering & to Achieve High PageSpeed Score.
 
 #### PageSpeed Insights
-* Desktop 92/100
-* Mobile 90/100
+* Desktop 96/100
+* Mobile 95/100
 
 
 #### Tools used:
