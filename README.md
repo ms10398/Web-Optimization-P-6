@@ -31,4 +31,3 @@ The Key Goal of this Project was to Optimize a Given Website As Much As Possible
 * Saw a red triangle on Layout indicated Forced Synched Layout in Main.js
 * Made changes in UpdatePosition() and changePizzaSizes().
 * Minified all the CSS and JavaScript files.
-* New Change
